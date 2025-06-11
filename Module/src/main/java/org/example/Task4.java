@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Task4 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         int userScore = 0;
         int computerScore = 0;
