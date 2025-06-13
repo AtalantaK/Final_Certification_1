@@ -37,8 +37,7 @@ public class Task4 {
             if (userValue.equals("К") && computerValue.equals("Н")) {
                 userScore += 1;
                 System.out.println("Камень юзера ломает ножницы компьютера. +1 юзеру");
-            }
-            else if (computerValue.equals("К") && userValue.equals("Н")) {
+            } else if (computerValue.equals("К") && userValue.equals("Н")) {
                 computerScore += 1;
                 System.out.println("Камень компьютера ломает ножницы юзера. +1 компьютеру");
             }

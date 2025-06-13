@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         System.out.println("Введите целочисленные элементы массива. Для завершения ввода нажмите Enter и Ctrl+D.");
-        System.out.print("Ожидаем элементы массива: ");
+        System.out.print("Ожидаем элементы массива... ");
         Scanner scanner = new Scanner(System.in);
         List<Integer> arrayList = new ArrayList<>();
         while (scanner.hasNextInt()) {

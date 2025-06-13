@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
-        try{
+        try {
             System.out.print("Введите дату последнего полива кактуса в формате DD.MM.YYYY: ");
             Scanner scanner = new Scanner(System.in);
             String str = scanner.nextLine();
@@ -45,8 +45,7 @@ public class Task2 {
                     System.out.println("Влажность >= 30%. Проверьте влажность завтра.");
                 }
             }
-        }
-        catch (DateTimeParseException dateTimeParseException){
+        } catch (DateTimeParseException dateTimeParseException) {
             System.out.println("Неправильный формат даты! Введите дату в формате: DD.MM.YYYY");
         }
 
